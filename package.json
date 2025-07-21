@@ -1,0 +1,25 @@
+{
+  "name": "react_class",
+  "version": "1.0.0",
+  "description": "This is me learning React",
+  "main": "App.js",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "scheduler": "^0.26.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redraven001/React_Class.git"
+  },
+  "author": "Devendar Choudhary",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/redraven001/React_Class/issues"
+  },
+  "homepage": "https://github.com/redraven001/React_Class#readme"
+}
