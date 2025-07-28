@@ -18,8 +18,10 @@
     let root = document.getElementById('root');
     root.appendChild(h2);
 </script>
-<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-<script src="./App.js">
+<!-- CDN links are not recommended for production use, but are fine for learning purposes.-->
+ <!-- <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>    -->
+
+<script  type="module" src="./App.js">  //this is a browser script so we can not give import inside of this file but to use import we specift the type to be moule
 </script>
 </html>
